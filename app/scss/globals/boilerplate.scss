@@ -15,4 +15,9 @@ body {
   font-family: var(--font-bai);
   background: url(/images/bg-header-mobile.png);
   background-repeat: no-repeat;
+  @include breakpoint(medium) {
+    background: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
