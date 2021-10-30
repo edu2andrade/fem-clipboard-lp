@@ -1,0 +1,16 @@
+@use "../util" as *;
+
+.logo-clipboard-header {
+  width: rem(120);
+}
+.img-computer {
+  width: rem(310);
+  padding: rem(32) 0;
+}
+.img-devices {
+  width: rem(310);
+  padding-top: rem(50);
+}
+.logo-clipboard-footer {
+  width: rem(45);
+}

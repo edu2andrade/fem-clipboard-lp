@@ -1,0 +1,37 @@
+@use "../util" as *;
+
+button {
+  margin: rem(10) 0;
+  padding: rem(16) rem(38);
+  border-radius: rem(50);
+  font-family: var(--font-bai);
+  color: white;
+  font-size: rem(18);
+  letter-spacing: rem(1);
+  border: none;
+  box-shadow: 0 rem(-3) rem(1) rgba(0, 0, 0, 0.2) inset;
+}
+.__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @include breakpoint(medium) {
+    flex-direction: row;
+    max-width: rem(500);
+    justify-content: space-between;
+  }
+}
+.__btn-ios {
+  background-color: var(--strong-cyan);
+}
+.__btn-mac {
+  background-color: var(--light-blue);
+}
+.__btn-ios:hover {
+  background-color: hsl(171, 60%, 64%);
+  cursor: pointer;
+}
+.__btn-mac:hover {
+  background-color: hsl(233, 100%, 80%);
+  cursor: pointer;
+}
