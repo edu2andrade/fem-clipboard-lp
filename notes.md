@@ -1,6 +1,8 @@
 #Notes
 
-- Responsive model for mobile (375px) - tablets (px)- desktop (px). Mobile first.
+- Responsive model for mobile (iPhoneX) - tablets (iPad)- desktop (1920x1080). Mobile first.
 - Saas and live server using parcel (wich is great!)
 - Flexbox
-- Using a transform: translateX(-50%) on positioning things
+- Using a transform: translate() on positioning things
+- How to change any svg colors:
+  https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element
